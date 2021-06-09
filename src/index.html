@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Webpack Dev Server Issue</title>
+    <meta name="description" content="Reproduction issue: &#34;99% end closing watch compilation&#34;" />
+    <meta name="application-name" content="Webpack Dev Server Issue" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Hello World">
+    <meta name="application-name" content="Hello World">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Load critical CSS -->
+    <link rel="preload" as="style" crossorigin="anonymous" href="https://unpkg.com/sanitize.css" />
+    <link rel="stylesheet" crossorigin="anonymous" href="https://unpkg.com/sanitize.css" />
+    <link rel="preconnect" crossorigin="anonymous" href="https://polyfill.io" />
+    <link
+      rel="preload"
+      as="script"
+      crossorigin="anonymous"
+      href="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces6%2Ces7%2Cdocument.querySelector%2Cfetch"
+    />
+    <!-- Preload fonts -->
+    <!--
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/Roboto-Medium.woff2" type="font/woff2">
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      JavaScript seems disabled in your browser. We are deeply sorry to disturb your experience, but
+      this application require JavaScript to work properly. Please&nbsp;:&nbsp;
+      <a href="https://enable-javascript.com" target="_blank" rel="noreferrer">enable JavaScript</a>.
+    </noscript>
+    <script
+      crossorigin="anonymous"
+      src="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces5%2Ces6%2Ces7%2Cdocument.querySelector%2Cfetch"
+    ></script>
+  </body>
+</html>

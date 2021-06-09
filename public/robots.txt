@@ -1,0 +1,10 @@
+User-agent: *
+
+# By default disable indexation
+Disallow: /
+# Allow: /
+
+# By default disable sitemap crawling
+# Crawl-delay: 10
+# Sitemap: https://production-domain.tld/sitemap.xml
+# Host: production-domain.tld

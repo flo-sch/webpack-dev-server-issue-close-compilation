@@ -1,0 +1,28 @@
+### OS specific files ###
+
+# Mac OS
+/**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+### dotenv environment variables file(s) ###
+.env
+
+### NPM dependencies ###
+
+node_modules
+
+### Log files ###
+
+logs
+/**/*.log
+
+# Dist folder
+
+/dist

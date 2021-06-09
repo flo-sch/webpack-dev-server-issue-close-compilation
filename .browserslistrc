@@ -1,0 +1,13 @@
+# browsers versions
+last 2 versions
+
+# minimal audience
+>= 1%
+
+# No target without official support or updates for the last 24 months
+not dead
+
+# theme-ui v0.9 dropped compatibility
+# see alternatives out there if you really must support IE
+# https://github.com/system-ui/theme-ui/releases/tag/v0.9.0
+not ie <= 11
